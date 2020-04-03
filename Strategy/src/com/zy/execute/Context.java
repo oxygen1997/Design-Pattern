@@ -4,6 +4,8 @@ import com.zy.inter.Strategy;
 
 public class Context{
 
+    //策略选择执行器
+
     private Strategy strategy;
 
     public Context(Strategy strategy){
