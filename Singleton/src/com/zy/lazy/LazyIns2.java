@@ -5,7 +5,7 @@ package com.zy.lazy;
  */
 public class LazyIns2 {
 
-    private static  LazyIns2 INSTANCE;
+    private volatile static  LazyIns2 INSTANCE;
 
     public static LazyIns2 getInstance(){
         if (INSTANCE==null){
