@@ -5,6 +5,7 @@ import com.zy.abstrac.impl.BasketBallGame;
 import com.zy.abstrac.impl.FootBallGame;
 
 public class Test {
+
     /*
         模板模式
         在模板模式（Template Pattern）中，一个抽象类公开定义了执行它的方法的方式/模板。
@@ -27,5 +28,6 @@ public class Test {
         basketBallGame.play();
 
         footBallGame.play();
+
     }
 }
